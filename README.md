@@ -5,7 +5,8 @@
 This project is a real-time chat application built using Node.js, Express, and Socket.io. It enables instant messaging between users, providing a simple and intuitive interface for connecting, exchanging messages, and staying in touch in real-time.
 
 
-![image](https://github.com/shubhamch95/realTime-chat/assets/76907324/979da9d0-5840-481c-9875-0e615643802c)
+![image](https://github.com/shubhamch95/realTime-chat/assets/76907324/6693104c-f66f-4d12-81eb-4090889b3013)
+
 
 
 ## Features
@@ -29,7 +30,7 @@ This project is a real-time chat application built using Node.js, Express, and S
    
 2.  ## Install dependencies:
 
-   **npm install**
+     **npm install**
 
 3. ## Start the server:
 
@@ -39,17 +40,14 @@ This project is a real-time chat application built using Node.js, Express, and S
    **Open your web browser and navigate to http://localhost:9000.**
 
    ## Usage
-Enter your name when prompted to start chatting.<br>
-Type messages in the input area and press Enter to send.<br>
-Real-time incoming messages will be displayed in the chat area.<br>
-The chat area dynamically scrolls to show the latest messages.<br>
+Enter your name when prompted to start chatting.<br>Type messages in the input area and press Enter to send.<br>Real-time incoming messages will be displayed in the chat area.<br>The chat area dynamically scrolls to show the latest messages.
 
 ##Folder Structure
-public: Contains static files (HTML, CSS, client-side JavaScript).<br>
-server.js: Express server configuration and Socket.io setup.<br>
-client.js: Client-side JavaScript for managing user interactions.<br>
-style.css: Cascading Style Sheets for styling the chat interface.<br>
-package.json: NPM configuration with project dependencies.<br>
+**public:** Contains static files (HTML, CSS, client-side JavaScript).<br>
+**server.js:** Express server configuration and Socket.io setup.<br>
+**client.js:** Client-side JavaScript for managing user interactions.<br>
+**style.css:** Cascading Style Sheets for styling the chat interface.<br>
+**package.json:** NPM configuration with project dependencies.<br>
 
 ## Contributing
 Contributions are welcome! Feel free to submit issues or pull requests.
