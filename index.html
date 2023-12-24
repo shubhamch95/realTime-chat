@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickConnect</title>
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Favicon links should be here -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+</head>
+
+<body>
+    <section class="chat_section">
+        <div class="brand">
+            <img height="40" src="/image.png" alt="">
+            <h1>Quickconnect</h1>
+        </div>
+        <div class="message_area"></div>
+        <div>
+            <textarea id="textArea" cols="30" rows="1" placeholder="Write a message"></textarea>
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+
+</html>
