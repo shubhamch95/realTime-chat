@@ -40,15 +40,18 @@ This project is a real-time chat application built using Node.js, Express, and S
    **Open your web browser and navigate to http://localhost:9000.**
 
    ## Usage
-* Enter your name when prompted to start chatting.<br> * Type messages in the input area and press Enter to send.<br> * Real-time incoming messages will be displayed in the chat area.* <br>The chat area dynamically scrolls to show the latest messages.
+* Enter your name when prompted to start chatting.<br>
+* Type messages in the input area and press Enter to send.<br>
+* Real-time incoming messages will be displayed in the chat area.<br>
+* The chat area dynamically scrolls to show the latest messages.
 
 ## Folder Structure
 
-**public:** Contains static files (HTML, CSS, client-side JavaScript).<br>
-**server.js:** Express server configuration and Socket.io setup.<br>
-**client.js:** Client-side JavaScript for managing user interactions.<br>
-**style.css:** Cascading Style Sheets for styling the chat interface.<br>
-**package.json:** NPM configuration with project dependencies.<br>
+* **public:** Contains static files (HTML, CSS, client-side JavaScript).<br>
+* **server.js:** Express server configuration and Socket.io setup.<br>
+* **client.js:** Client-side JavaScript for managing user interactions.<br>
+* **style.css:** Cascading Style Sheets for styling the chat interface.<br>
+* **package.json:** NPM configuration with project dependencies.<br>
 
 ## Contributing
 
